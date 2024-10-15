@@ -22,11 +22,11 @@ function App() {
   );
 }
 
-const raiz = document.getElementById("root");
+const raiz = document.getElementById("boton");
 
 const CrearBoton = () =>{
   
-  const boton = document.createElement("button");
+  const boton = document.createElement("boton");
   const etiqueta = document.createElement("Etiqueta");
   boton.appendChild(etiqueta);
   boton.classList.add("btn");
