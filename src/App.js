@@ -22,18 +22,18 @@ function App() {
   );
 }
 
-const root = document.getElementById("root");
+const raiz = document.getElementById("root");
 
-const crearBoton = () =>{
+const CrearBoton = () =>{
   
-  const boton = document.createElement("boton");
-  const etiqueta = document.createElement("etiqueta");
+  const boton = document.createElement("button");
+  const etiqueta = document.createElement("Etiqueta");
   boton.appendChild(etiqueta);
   boton.classList.add("btn");
   return boton;
 }
 
-const boton = crearBoton();
-root.appendChild(boton);
+const boton = CrearBoton();
+raiz.appendChild(boton);
 
 export default App;
