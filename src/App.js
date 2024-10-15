@@ -22,4 +22,18 @@ function App() {
   );
 }
 
+const root = document.getElementById("root");
+
+const crearBoton = () =>{
+  
+  const boton = document.createElement("boton");
+  const etiqueta = document.createElement("etiqueta");
+  boton.appendChild(etiqueta);
+  boton.classList.add("btn");
+  return boton;
+}
+
+const boton = crearBoton();
+root.appendChild(boton);
+
 export default App;
